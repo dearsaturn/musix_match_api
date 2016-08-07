@@ -18,7 +18,6 @@ class MusixMatchApiConnection
   def connection
     @connection ||= Faraday.new(url: api_root_url) do |conn|
       conn.request :url_encoded
-      conn.response :logger
       conn.adapter Faraday.default_adapter
     end
   end

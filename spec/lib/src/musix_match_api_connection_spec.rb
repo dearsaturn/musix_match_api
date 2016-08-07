@@ -12,7 +12,7 @@ RSpec.describe MusixMatchApiConnection do
   describe '#request' do
     it 'provides a response object' do
       response = subject.new(api_key: 'api_key').
-        request(method: :get, url: '/test', params: { hi: 'hello' })
+        request method: :get, url: '/test', params: { hi: 'hello' }
 
       expect(response).to be_an_instance_of(MusixMatchApiResponse)
     end
