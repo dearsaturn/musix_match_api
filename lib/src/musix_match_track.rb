@@ -1,5 +1,3 @@
-require_relative 'musix_match_api_connection'
-
 class MusixMatchTrack < MusixMatchApiConnection
   def search query:, page: 1
     response = request(

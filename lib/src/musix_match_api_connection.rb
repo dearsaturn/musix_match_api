@@ -1,6 +1,3 @@
-require 'faraday'
-require_relative 'musix_match_api_response'
-
 class MusixMatchApiConnection
   def initialize api_key:
     @api_key = api_key

@@ -1,5 +1,3 @@
-require 'json'
-
 class MusixMatchApiResponse
   def initialize response:
     @response = JSON.parse response, object_class: OpenStruct
