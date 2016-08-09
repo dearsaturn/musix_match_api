@@ -6,6 +6,6 @@ An API Key is required to make use of this code, so, head over to [the developer
 
 ## Example Usage:
 ```
-api = MusixMatchTrack.new(api_key: "abcdef")
-api.search(query: "Radiohead")
+track = MusixMatchTrack.new(api_key: "abcdef")
+track.search(query: "Radiohead")
 ```
