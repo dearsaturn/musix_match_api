@@ -5,4 +5,7 @@ For more information on their API, see https://developer.musixmatch.com/document
 An API Key is required to make use of this code, so, head over to [the developer site](https://developer.musixmatch.com) to get one (it's free).
 
 ## Example Usage:
-``` MusixMatchTrack.new(api_key: "abcdef").search(query: "Radiohead")```
+```
+api = MusixMatchTrack.new(api_key: "abcdef")
+api.search(query: "Radiohead")
+```
